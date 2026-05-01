@@ -7,7 +7,7 @@ export default function Hero() {
     <div className="h-screen flex flex-col justify-center items-center bg-pink-100 text-center">
       
       <motion.h1
-        className="text-4xl md:text-5xl font-bold text-grey-600"
+        className="text-4xl md:text-5xl font-bold text-pink-600"
         initial={{ opacity: 0, y: -50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
@@ -16,7 +16,7 @@ export default function Hero() {
       </motion.h1>
 
       <motion.p
-        className="mt-4 text-xl"
+        className="mt-4 text-xl text-gray-800"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1 }}
@@ -25,7 +25,7 @@ export default function Hero() {
       </motion.p>
 
       <motion.p
-        className="mt-2 text-lg"
+        className="mt-2 text-lg text-gray-700"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1.5 }}
