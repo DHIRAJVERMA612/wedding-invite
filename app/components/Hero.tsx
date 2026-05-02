@@ -48,7 +48,7 @@ export default function Hero() {
         <motion.img
           src="/images/ring.png"
           alt="ring"
-          className="mt-6 w-40 h-64 mx-auto"
+          className="mt-10 w-40 h-64 mx-auto"
           animate={{ rotate: [-5, 5, -5] }}
           transition={{
             duration: 0.6,
