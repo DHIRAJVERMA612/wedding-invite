@@ -74,16 +74,6 @@ export default function Hero() {
         >
           We are getting married!
         </motion.p>
-        <motion.img
-          src="/images/ring.png"
-          alt="ring"
-          className="mt-6 w-16 h-16 mx-auto"
-          animate={{ rotate: [-5, 5, -5] }}
-          transition={{
-            duration: 0.6,
-            repeat: Infinity,
-            ease: "easeInOut",
-          }}
 />
         <motion.p
           className="mt-2 text-lg"
@@ -93,6 +83,16 @@ export default function Hero() {
         >
           10 December 2026
         </motion.p>
+        <motion.img
+          src="/images/ring.png"
+          alt="ring"
+          className="mt-6 w-64 h-64 mx-auto"
+          animate={{ rotate: [-5, 5, -5] }}
+          transition={{
+            duration: 0.6,
+            repeat: Infinity,
+            ease: "easeInOut",
+          }}
 
       </div>
 
