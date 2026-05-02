@@ -74,7 +74,6 @@ export default function Hero() {
         >
           We are getting married!
         </motion.p>
-/>
         <motion.p
           className="mt-2 text-lg"
           initial={{ opacity: 0 }}
