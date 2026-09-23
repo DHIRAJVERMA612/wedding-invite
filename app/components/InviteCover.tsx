@@ -5,7 +5,11 @@ import { useState, useRef } from "react";
 // 👉 Import your existing sections
 import Hero from "./Hero";
 import Story from "./Story";
-import Events from "./Events";
+//import Events from "./Events";
+import Haldi from "./Haldi";
+import Mehendi from "./Mehendi";
+import Wedding from "./Wedding";
+import Reception from "./Reception";
 import Gallery from "./Gallery";
 import RSVP from "./RSVP";
 import Music from "./Music";
@@ -69,10 +73,21 @@ export default function InviteCover() {
       {state === "site" && (
         <div className="bg-white">
           <Hero />
+
           <Story />
-          <Events />
+
+          <Haldi />
+
+          <Mehendi />
+
+          <Wedding />
+
+          <Reception />
+
           <Gallery />
+
           <RSVP />
+
           <Music />
         </div>
       )}

@@ -43,7 +43,7 @@ export default function Hero() {
           animate={{ opacity: 1 }}
           transition={{ delay: 1.5 }}
         >
-          10 December 2026
+          25 November 2026
         </motion.p>
         <motion.img
           src="/images/ring.png"
