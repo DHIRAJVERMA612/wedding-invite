@@ -76,9 +76,9 @@ export default function Hero() {
           src="/images/ring.png"
           alt="ring"
           className="mt-8 w-32 h-52 mx-auto"
-          animate={{ rotate: [-5, 5, -5] }}
+          animate={{ y: [0, -12, 0],rotate: [-2, 2, -2] }}
           transition={{
-            duration: 0.6,
+            duration: 4,
             repeat: Infinity,
             ease: "easeInOut",
           }}
