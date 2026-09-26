@@ -5,9 +5,9 @@ import Image from "next/image";
 
 export default function Gallery() {
   const images = [
-    "/images/gall1.jpg",
-    "/images/gall2.jpg",
-    "/images/gall3.jpg",
+    "/images/gall_1.jpg",
+    "/images/gall_2.jpg",
+    "/images/gall_3.jpg",
   ];
 
   return (
