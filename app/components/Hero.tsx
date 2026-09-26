@@ -75,7 +75,7 @@ export default function Hero() {
         <motion.img
           src="/images/ring.png"
           alt="ring"
-          className="mt-8 w-32 h-52 mx-auto"
+          className="mt-8 w-62 h-52 mx-auto"
           animate={{ y: [0, -12, 0],rotate: [-2, 2, -2] }}
           transition={{
             duration: 4,
