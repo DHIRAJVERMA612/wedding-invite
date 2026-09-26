@@ -47,7 +47,7 @@ export default function Haldi() {
           transition={{ delay: 0.3 }}
           viewport={{ once: true }}
         >
-          24 November 2026
+          23 November 2026
         </motion.p>
 
         <motion.p
@@ -70,7 +70,7 @@ export default function Haldi() {
           Bride's Home
         </motion.p>
 
-        <MapButton query="Bride's Home, Delhi" />
+        <MapButton query="Groom's Home, Delhi" />
 
       </div>
 

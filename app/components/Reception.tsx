@@ -67,7 +67,7 @@ export default function Reception() {
           City Hall
         </motion.p>
 
-        <MapButton query="City Hall, Delhi" />
+        <MapButton query="Adhanchuwa,Giridih,jharkhand 815302" />
 
       </div>
 

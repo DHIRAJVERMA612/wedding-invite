@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import MapButton from "./MapButton";
+import MapButton from "./MapButton_rajsahi";
 import AddToCalendar from "./AddToCalendar";
 
 export default function Wedding() {
