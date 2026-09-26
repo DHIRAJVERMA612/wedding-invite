@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useRef } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 
 // 👉 Import your existing sections
@@ -13,20 +13,16 @@ import Mehendi from "./Mehendi";
 import Wedding from "./Wedding";
 import Reception from "./Reception";
 import Gallery from "./Gallery";
+import StoryVideo from "./StoryVideo";
 import RSVP from "./RSVP";
 import Music from "./Music";
 
 export default function InviteCover() {
-  const [state, setState] = useState("cover"); 
-  // "cover" → "video" → "site"
-
-  const videoRef = useRef<HTMLVideoElement>(null);
+  const [state, setState] = useState("cover");
+  // "cover" → "site"
 
   const handleOpen = () => {
-    setState("video");
-    setTimeout(() => {
-      videoRef.current?.play();
-    }, 100);
+    setState("site");
   };
 
   return (
@@ -73,15 +69,7 @@ export default function InviteCover() {
   </div>
 )}
 
-      {/* 🎬 STEP 2: Video */}
-      {state === "video" && (
-        <video
-          ref={videoRef}
-          src="/video/open.mp4"
-          className="absolute inset-0 w-full h-full object-cover"
-          onEnded={() => setState("site")}
-        />
-      )}
+      {/* 🎬 STEP 2: Video removed from here — now embedded lower on the page */}
 
       {/* 💍 STEP 3: FULL WEBSITE */}
       {state === "site" && (
@@ -101,6 +89,8 @@ export default function InviteCover() {
           <Reception />
 
           <Gallery />
+
+          <StoryVideo />
 
           <RSVP />
 

@@ -44,7 +44,7 @@ export default function Mehendi() {
           transition={{ delay: 0.3 }}
           viewport={{ once: true }}
         >
-          23 November 2026
+          24 November 2026
         </motion.p>
 
         <motion.p
