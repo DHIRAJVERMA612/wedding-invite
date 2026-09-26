@@ -1,9 +1,11 @@
 "use client";
 
 import { useState, useRef } from "react";
+import { motion } from "framer-motion";
 
 // 👉 Import your existing sections
 import Hero from "./Hero";
+import Welcome from "./Welcome";
 import Story from "./Story";
 //import Events from "./Events";
 import Haldi from "./Haldi";
@@ -48,12 +50,24 @@ export default function InviteCover() {
 
     {/* Text */}
     <div className="relative z-10 text-center">
-      <p className="text-4xl font-mono text-yellow-300">
-        Tap to Reveal
+      <motion.div
+        className="text-5xl mx-auto"
+        animate={{ scale: [1, 1.15, 1] }}
+        transition={{ duration: 1.4, repeat: Infinity, ease: "easeInOut" }}
+      >
+        💌
+      </motion.div>
+
+      <p className="mt-4 font-script text-4xl text-yellow-300">
+        With love, we invite you...
       </p>
 
-      <p className="mt-2 text-white text-sm">
-        Dhiraj ❤️ Saroj Wedding
+      <p className="mt-2 text-white text-sm tracking-widest uppercase">
+        Dhiraj &amp; Saroj
+      </p>
+
+      <p className="mt-6 text-white/80 text-xs tracking-wide uppercase">
+        Tap anywhere to open
       </p>
     </div>
   </div>
@@ -73,6 +87,8 @@ export default function InviteCover() {
       {state === "site" && (
         <div className="bg-white">
           <Hero />
+
+          <Welcome />
 
           <Story />
 

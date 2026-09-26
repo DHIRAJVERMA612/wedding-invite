@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import MapButton from "./MapButton";
 
 export default function Mehendi() {
   return (
@@ -25,6 +26,16 @@ export default function Mehendi() {
         >
           Mehendi 🌿
         </motion.h2>
+
+        <motion.p
+          className="text-lg md:text-xl italic mb-6 font-body"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0.2 }}
+          viewport={{ once: true }}
+        >
+          Henna, music, and dancing under the stars
+        </motion.p>
 
         <motion.p
           className="text-xl md:text-2xl mb-3"
@@ -55,6 +66,8 @@ export default function Mehendi() {
         >
           Mehendi Venue
         </motion.p>
+
+        <MapButton query="Mehendi Venue, Delhi" />
 
       </div>
 

@@ -1,6 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
+import MapButton from "./MapButton";
+import AddToCalendar from "./AddToCalendar";
 
 export default function Wedding() {
   return (
@@ -25,6 +27,16 @@ export default function Wedding() {
         >
           Wedding 💍
         </motion.h2>
+
+        <motion.p
+          className="text-lg md:text-xl italic mb-6 font-body"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0.2 }}
+          viewport={{ once: true }}
+        >
+          The moment we say "I do"
+        </motion.p>
 
         <motion.p
           className="text-xl md:text-2xl mb-3"
@@ -55,6 +67,17 @@ export default function Wedding() {
         >
           Grand Palace Banquet
         </motion.p>
+
+        <MapButton query="Grand Palace Banquet, Delhi" />
+        <div>
+          <AddToCalendar
+            title="Dhiraj & Saroj's Wedding Ceremony"
+            details="The wedding ceremony of Dhiraj and Saroj."
+            location="Grand Palace Banquet, Delhi"
+            startDateTime="20261125T190000"
+            endDateTime="20261125T220000"
+          />
+        </div>
 
       </div>
 

@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import MapButton from "./MapButton";
 
 export default function Haldi() {
   return (
@@ -28,6 +29,16 @@ export default function Haldi() {
         >
           Haldi 💛
         </motion.h2>
+
+        <motion.p
+          className="text-lg md:text-xl italic mb-6 font-body"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ delay: 0.2 }}
+          viewport={{ once: true }}
+        >
+          A morning of turmeric, laughter, and blessings
+        </motion.p>
 
         <motion.p
           className="text-xl md:text-2xl mb-3"
@@ -58,6 +69,8 @@ export default function Haldi() {
         >
           Bride's Home
         </motion.p>
+
+        <MapButton query="Bride's Home, Delhi" />
 
       </div>
 
