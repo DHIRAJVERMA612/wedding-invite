@@ -101,7 +101,7 @@ export default function RSVP() {
           <textarea
             name="message"
             placeholder="Message for couple"
-            className="w-full border p-2 rounded"
+            className="w-full border p-2 rounded text-black"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
           />
