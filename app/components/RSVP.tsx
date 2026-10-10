@@ -82,7 +82,7 @@ export default function RSVP() {
             type="text"
             name="name"
             placeholder="Your Name"
-            className="w-full border p-2 rounded"
+            className="w-full border p-2 rounded text-black"
             value={name}
             onChange={(e) => setName(e.target.value)}
             required
@@ -90,7 +90,7 @@ export default function RSVP() {
 
           <select
             name="attending"
-            className="w-full border p-2 rounded"
+            className="w-full border p-2 rounded text-black"
             value={attending}
             onChange={(e) => setAttending(e.target.value)}
           >
