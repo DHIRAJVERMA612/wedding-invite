@@ -25,7 +25,7 @@ export default function Wedding() {
           transition={{ duration: 1 }}
           viewport={{ once: true }}
         >
-          Wedding - The Wedding Vows💍
+          The Wedding Vows💍
         </motion.h2>
 
         <motion.p

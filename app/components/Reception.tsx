@@ -24,7 +24,7 @@ export default function Reception() {
           transition={{ duration: 1 }}
           viewport={{ once: true }}
         >
-          Reception - An Evening of Love & Blessings 🎉
+          Reception 🎉
         </motion.h2>
 
         <motion.p

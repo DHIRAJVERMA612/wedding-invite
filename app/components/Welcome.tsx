@@ -21,7 +21,7 @@ export default function Welcome() {
           us, and we can't imagine celebrating this new chapter without you
           by our side. We can't wait to see you there!
         </p>
-        <p className="mt-6 font-heading text-xl">— Dhiraj &amp; Saroj</p>
+        <p className="mt-6 font-heading text-xl text-black">— Dhiraj &amp; Saroj</p>
       </motion.div>
     </section>
   );

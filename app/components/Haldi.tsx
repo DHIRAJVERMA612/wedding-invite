@@ -27,7 +27,7 @@ export default function Haldi() {
           transition={{ duration: 1 }}
           viewport={{ once: true }}
         >
-          Haldi - Shagun ki Haldi 💛
+          Shagun ki Haldi 💛
         </motion.h2>
 
         <motion.p
