@@ -24,7 +24,7 @@ export default function Reception() {
           transition={{ duration: 1 }}
           viewport={{ once: true }}
         >
-          Reception 🎉
+          Reception - An Evening of Love & Blessings 🎉
         </motion.h2>
 
         <motion.p
@@ -64,7 +64,7 @@ export default function Reception() {
           transition={{ delay: 0.7 }}
           viewport={{ once: true }}
         >
-          City Hall
+          AdhanChuwa, Giridih
         </motion.p>
 
         <MapButton query="Adhanchuwa,Giridih,jharkhand 815302" />

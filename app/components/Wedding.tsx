@@ -25,7 +25,7 @@ export default function Wedding() {
           transition={{ duration: 1 }}
           viewport={{ once: true }}
         >
-          Wedding 💍
+          Wedding - The Wedding Vows💍
         </motion.h2>
 
         <motion.p
@@ -65,7 +65,7 @@ export default function Wedding() {
           transition={{ delay: 0.7 }}
           viewport={{ once: true }}
         >
-          Grand Palace Banquet
+          Rajshahi Resort, Saria
         </motion.p>
 
         <MapButton query="Grand Palace Banquet, Delhi" />

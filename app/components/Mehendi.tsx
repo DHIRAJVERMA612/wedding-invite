@@ -24,7 +24,7 @@ export default function Mehendi() {
           transition={{ duration: 1 }}
           viewport={{ once: true }}
         >
-          Mehendi 🌿
+          Mehendi & Sangeet - An Evening of Henna & Music 🌿
         </motion.h2>
 
         <motion.p
