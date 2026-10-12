@@ -1,7 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import MapButton from "./MapButton";
+// import MapButton from "./MapButton";
+import MapButton from "./MapButton_saroj";
 
 export default function Haldi() {
   return (
