@@ -64,7 +64,7 @@ export default function Reception() {
           transition={{ delay: 0.7 }}
           viewport={{ once: true }}
         >
-          AdhanChuwa, Giridih
+          Adhanchuwa, Giridih
         </motion.p>
 
         <MapButton query="Adhanchuwa,Giridih,jharkhand 815302" />
