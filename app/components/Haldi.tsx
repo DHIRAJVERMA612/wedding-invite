@@ -1,8 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-// import MapButton from "./MapButton";
-import MapButton from "./MapButton_saroj";
+import MapButton from "./MapButton";
+//import MapButton from "./MapButton_saroj";
 
 export default function Haldi() {
   return (
@@ -68,7 +68,7 @@ export default function Haldi() {
           transition={{ delay: 0.7 }}
           viewport={{ once: true }}
         >
-          Bride's Home
+          Groom's Home
         </motion.p>
 
         <MapButton query="Groom's Home, Delhi" />

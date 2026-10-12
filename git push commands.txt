@@ -1,3 +1,9 @@
 git add .
 git commit -m "Fix mobile color issue in hero section"
 git push
+
+#----------------Dhiraj Invitation
+#1. form link change
+#2. Bride's home name change
+#3. map change
+#4. date change

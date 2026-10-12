@@ -1,8 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-// import MapButton from "./MapButton";
-import MapButton from "./MapButton_saroj";
+import MapButton from "./MapButton";
+//import MapButton from "./MapButton_saroj";
 
 export default function Mehendi() {
   return (
@@ -45,7 +45,7 @@ export default function Mehendi() {
           transition={{ delay: 0.3 }}
           viewport={{ once: true }}//23 nov
         >
-          23 November 2026 
+          24 November 2026 
         </motion.p>
 
         <motion.p

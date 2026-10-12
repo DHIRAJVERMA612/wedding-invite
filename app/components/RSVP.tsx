@@ -6,8 +6,8 @@ import { motion } from "framer-motion";
 // 👉 Replace this with your own Formspree endpoint (see note below the form).
 // Sign up free at https://formspree.io, create a form, and paste your
 // unique endpoint URL here — it looks like https://formspree.io/f/xxxxxxx
-//const FORM_ENDPOINT = "https://formspree.io/f/myezdazp";//dhiraj inivitation
-const FORM_ENDPOINT = "https://formspree.io/f/xyekdndo"; //saroj inivitation
+const FORM_ENDPOINT = "https://formspree.io/f/myezdazp";//dhiraj inivitation
+//const FORM_ENDPOINT = "https://formspree.io/f/xyekdndo"; //saroj inivitation
 
 export default function RSVP() {
   const [name, setName] = useState("");
