@@ -56,7 +56,7 @@ export default function RSVP() {
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
       >
-        RSVP 💌
+        Your Presence Matters to us 💌
       </motion.h2>
 
       {status === "sent" ? (
